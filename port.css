@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #121b31; 
+    color: #ffffff;
+    overflow-x: hidden;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.content-box {
+    background-image: ('bgimg.jpg');
+    background-color: #1f2d50;
+    margin: 20px;
+    width: 95%;
+    max-width: 1800px;
+    padding: 120px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-bottom: 10px;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-content h1 {
+    font-size: 2.8rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.text-content span {
+    color: #ff3d79; 
+}
+.text-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #cbd4e6;
+}
+.buttons .btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+.contact-btn {
+    background-color: #ff3d79;
+}
+.project-btn {
+    background-color: #4a8afe;
+}
+.btn:hover {
+    background-color: #ffffff;
+    color: #1f2d50;
+}
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.image-section img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid #ff3d79;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+.project-section {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.project-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff3d79;
+}
+.project-box {
+    background-color: #1f2d50;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.project-box p {
+    margin-bottom: 10px;
+}
+.project-box .project-btn {
+    background-color: #4a8afe;
+}
